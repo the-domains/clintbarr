@@ -1,28 +1,40 @@
-name: ClintBarr
-favicon: null
-layout_spectrum: 0.22300365124829113
-typography_spectrum: 0.7637379951775074
 cta:
-  domain: null
   bucket: null
   version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+  domain: null
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#FF6700'
-    - '#EBEBEB'
-    - '#C0C0C0'
-    - '#3A6EA5'
-    - '#004E98'
-  brandStrength: 0.7536380658857524
-  lightness: 0.32302265940234065
-  saturation: 0.6322705082129687
-  rhythmicContrast: 0.4352178352419287
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.6836735
+  brandStrength: 1
+  lightness: 1
+  brandColors:
+    - '#000000'
+    - '#FFFFFE'
+    - '#2784C6'
+    - '#B4B4B3'
+    - '#898988'
+  rhythmicContrast: 0.8437164
+typography_spectrum: 0.5923738
+layout_spectrum: 0
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: ClintBarr
